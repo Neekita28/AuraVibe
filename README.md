@@ -1,32 +1,67 @@
-# React + TypeScript + Vite
+# 💖 AuraVibe ✦ Adaptive Music Recommendation Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> **An adaptive, contextual music recommendation engine built with React, TypeScript, Vite, Tailwind CSS v4, and the Web Audio API.** Styled with a high-energy **Neo-Brutalist / Y2K Pop** aesthetic (White, Hot Pink, Pitch Black).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✦ Core Contextual Vectors
 
-## React Compiler
+AuraVibe curates and dynamically ranks soundscapes across three user environmental vectors:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Time of Day**: Morning, Afternoon, Evening, Night
+2. **Weather Condition**: Sunny, Raining, Thunderstorm, Cold / Overcast
+3. **Current Mood**: Energetic, Focused, Relaxed, Melancholic, Euphoric, Chill
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🚀 Key Features
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+- **Deterministic Acoustic Weighting Algorithm**: Calculates target audio parameters (Valence, Energy, Acousticness, Tempo BPM, Danceability).
+- **Multi-Dimensional Proximity Scoring**: Weighted Euclidean distance similarity calculation mapping tracks to real-time percentage matches (e.g., `98% Match`).
+- **Web Audio Generative Synthesizer**: Built-in browser Web Audio API engine providing procedural polyphonic chords, ambient drone pads, and vinyl noise matched to key and BPM.
+- **Neo-Brutalist / Y2K Pop Aesthetic**: Crisp white backgrounds, vibrant hot pink (`#ff2a85`) accents, 3px solid black outlines, hard offset drop-shadows, and micro-press interactions.
+- **Dynamic Reactive Background**: Ambient canvas with retro grid textures and floating sparkles that adapt to active weather and time vectors.
+- **Interactive PlayerBar**: Sticky bottom audio player with dual-tone frequency visualizer waveform, scrub bar, duration tracker, and volume controls.
+- **"Vibe Shift" Slider & "Surprise Me" Novelty Action**: Instant energy recalibration and serendipitous discovery with confetti celebrations.
+- **Vector Mathematics Inspector**: Interactive modal detailing the exact mathematical weights computed behind each recommendation.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: React 19 + Vite
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS (v4) + Neo-Brutalist Design System
+- **Icons**: Lucide React
+- **Audio**: Web Audio API (AnalyserNode, OscillatorNode, BiquadFilterNode)
+- **Delight**: Canvas-Confetti
+
+---
+
+## 💻 Local Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## 🌐 Deploy to Vercel
+
+1. Push this repository to GitHub:
+   ```bash
+   git push -u origin main
+   ```
+2. Open [Vercel Dashboard](https://vercel.com/new).
+3. Import your GitHub repository (`auravibe`).
+4. Keep standard Vite framework presets:
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+5. Click **Deploy**!
