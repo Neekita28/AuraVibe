@@ -2,7 +2,7 @@
 
 > **An adaptive, contextual music recommendation engine built with React, TypeScript, Vite, Tailwind CSS v4, and the Web Audio API.** Styled with a high-energy **Neo-Brutalist / Y2K Pop** aesthetic (White, Hot Pink, Pitch Black).
 
-live - aura-vibe-kappa.vercel.app
+live - https://aura-vibe-kappa.vercel.app/
 
 ## ✦ Core Contextual Vectors
 
